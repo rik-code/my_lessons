@@ -4,7 +4,7 @@
 using namespace std;
 
 string to_binary(int n) {
-    string bin = "";  //
+    string bin = "";
     while (n > 0) {
         bin = char('0' + n % 2) + bin;
         /* Когда пишем += -> bin = bin + что_то. Символы вставляются в прямом следовании
